@@ -1,0 +1,11 @@
+- name: Some common task
+  debug:
+    msg: hello world
+
+- name: Another common task
+  debug:
+    msg: hello world
+
+- name: Yet another common task
+  debug:
+    msg: hello world

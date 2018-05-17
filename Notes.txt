@@ -79,3 +79,13 @@ roles/
     webtier/              # same kind of structure as "common" was above, done for the webtier role
     monitoring/           # ""
     fooapp/               # ""
+
+mkdir -p roles/{common,webtier,fooapp}/tasks
+touch roles/{common,webtier,fooapp}/tasks/main.yml
+
+http://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html
+
+http://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html#using-roles
+  roles:
+     - common
+     - webservers
